@@ -1,2 +1,4 @@
 
-print("Learn Python to be great!")
+name = input("Please enter name: ")
+print("Hello there, " + name)
+
