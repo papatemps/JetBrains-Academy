@@ -280,6 +280,22 @@ files:
     if __name__ == '__main__':
         CoffeeMachineTest('machine.coffee_machine').run_tests()
   learner_created: false
+- name: machine/coffee_machine.py
+  visible: true
+  text: |
+    # Write your code here
+
+    water = 200
+    milk = 50
+    coffee_beans = 15
+
+    cups = int(input("Write how many cups of coffee you will need: "))
+
+    print("For " + str(cups) + " cups of coffee you will need: ")
+    print(str(water * cups) + " ml of water")
+    print(str(milk * cups) + " ml of milk")
+    print(str(coffee_beans * cups) + " g of coffee beans")
+  learner_created: true
 feedback_link: https://hyperskill.org/projects/68/stages/369/implement
 status: Unchecked
 record: -1
